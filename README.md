@@ -1,2 +1,4 @@
 # ped_hom
-A cpp program for making homozygous ped files
+* A __beta__ cpp program for making homozygous ped files
+* Requires the [boost](http://www.boost.org/) c++ libraries
+
