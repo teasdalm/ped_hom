@@ -75,7 +75,7 @@ void filter_ped(std::string file_name){
       // Set a counter to update where we are
       ct++;
       if(ct % 100 == 0){
-        std::cerr << "Processed " << ct << " samples" <<'\xd';
+        std::cerr << "  Processed " << ct << " samples" <<'\xd';
       };
       // trim string
       boost::trim(line);
@@ -94,8 +94,8 @@ void filter_ped(std::string file_name){
   }
   // all is well
   // print final count and tell user we're done
-  std::cerr << "Processed " << ct << " samples" <<'\xd';
-  std::cerr << std::endl << "Finished filtering" << std::endl;
+  std::cerr << "  Processed " << ct << " samples" <<'\xd';
+  std::cerr << std::endl << " Finished filtering" << std::endl;
 }
 
 
@@ -105,12 +105,11 @@ int main (int argc, char* argv[]) {
   */
   std::cerr << "ped_hom v0.1 (21 March 2015)  https://github.com/teasdalm/ped_hom" << std::endl;
   std::cerr << "(C) 2015 Matthew Teasdale  GNU General Public License v3" << std::endl;
-  std::cerr << std::endl;
 
   if(argc < 2){
     std::cerr << "    Error!! - Usage..... ped_hom input.ped" << std::endl << std::endl;
   } else{
-    std::cerr << "Starting filtering" << std::endl;
+    std::cerr << "  Starting filtering" << std::endl;
     filter_ped(argv[1]);
   }
   return 0;
