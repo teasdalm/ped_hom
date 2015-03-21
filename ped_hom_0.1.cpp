@@ -107,7 +107,7 @@ int main (int argc, char* argv[]) {
   std::cerr << "(C) 2015 Matthew Teasdale  GNU General Public License v3" << std::endl;
 
   if(argc < 2){
-    std::cerr << "    Error!! - Usage..... ped_hom input.ped" << std::endl << std::endl;
+    std::cerr << "    Error!! - Usage..... ped_hom input.ped" << std::endl;
   } else{
     std::cerr << "  Starting filtering" << std::endl;
     filter_ped(argv[1]);
