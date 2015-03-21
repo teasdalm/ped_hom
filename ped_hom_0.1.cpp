@@ -104,12 +104,8 @@ int main (int argc, char* argv[]) {
    * Simple main statement to show programs name and collect commands
   */
   std::cerr << std::endl;
-  std::cerr << "	#######################" << std::endl;
-  std::cerr << "	##                   ##" << std::endl;
-  std::cerr << "	##      ped_hom      ##" << std::endl;
-  std::cerr << "	##     version 0.1   ##" << std::endl;
-  std::cerr << "	##                   ##" << std::endl;
-  std::cerr << "	#######################" << std::endl;
+  std::cerr << "ped_hom v 0.1 (21 March 2015)  github.com/teasdalm/ped_hom" << std::endl;
+  std::cerr << "(C) Matthew Teasdale 2015  GNU General Public License v3" << std::endl;
   std::cerr << std::endl;
 
   if(argc < 2){
