@@ -93,6 +93,8 @@ void filter_ped(std::string file_name){
     std::cerr << "Unable to open file \n";
   }
   // all is well
+  // print final count and tell user we're done
+  std::cerr << "Processed " << ct << " samples" <<'\xd';
   std::cerr << std::endl << "Finished filtering" << std::endl;
 }
 
