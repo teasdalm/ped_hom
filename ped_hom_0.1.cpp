@@ -95,7 +95,7 @@ void filter_ped(std::string file_name){
   // all is well
   // print final count and tell user we're done
   std::cerr << "  Processed " << ct << " samples" <<'\xd';
-  std::cerr << std::endl << " Finished filtering" << std::endl;
+  std::cerr << std::endl << "Finished filtering" << std::endl;
 }
 
 
@@ -109,7 +109,7 @@ int main (int argc, char* argv[]) {
   if(argc < 2){
     std::cerr << "    Error!! - Usage..... ped_hom input.ped" << std::endl;
   } else{
-    std::cerr << "  Starting filtering" << std::endl;
+    std::cerr << "Starting filtering" << std::endl;
     filter_ped(argv[1]);
   }
   return 0;
