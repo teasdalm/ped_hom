@@ -75,7 +75,7 @@ void filter_ped(std::string file_name){
       // Set a counter to update where we are
       ct++;
       if(ct % 100 == 0){
-        std::cerr << "  Processed " << ct << " samples" <<'\xd';
+        std::cerr <<"  Processed " << ct << " samples" <<'\xd';
       };
       // trim string
       boost::trim(line);
@@ -94,7 +94,7 @@ void filter_ped(std::string file_name){
   }
   // all is well
   // print final count and tell user we're done
-  std::cerr << "  Processed " << ct << " samples" <<'\xd';
+  std::cerr << "Processed " << ct << " samples" <<'\xd';
   std::cerr << std::endl << "Finished filtering" << std::endl;
 }
 
