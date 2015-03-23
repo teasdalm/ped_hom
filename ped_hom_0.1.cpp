@@ -26,8 +26,8 @@
 void make_hom(std::string ped_line){
   /*
    * Split the line by space or tab
-   * Then print the line's header then
-   *
+   * then print the line's header then
+   * print homozygous genotypes
    */
   std::vector<std::string> cols;
   boost::split(cols, ped_line, boost::is_any_of(" \t"));
