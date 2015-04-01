@@ -76,7 +76,7 @@ void filter_ped(std::string file_name){
       ct++;
       if(ct % 100 == 0){
         std::cerr <<"Processed " << ct << " samples" <<'\xd';
-      };
+      }
       // trim string
       boost::trim(line);
       //Check the line isn't empty
