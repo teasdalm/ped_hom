@@ -32,9 +32,6 @@ void make_hom(std::string ped_line){
   std::vector<std::string> cols;
   boost::split(cols, ped_line, boost::is_any_of(" \t"));
 
-  // set random number
-  srand(time(NULL));
-
   // print start of header
   std::cout << cols[0]; // fam ID
   std::cout << ' ' <<cols[1]; // sample ID
@@ -67,6 +64,10 @@ void filter_ped(std::string file_name){
   std::string line;
   std::ifstream myfile(file_name);
 
+  // set random number
+  srand(time(NULL));
+
+  // set counter
   int ct = 0;
   // read file
   if (myfile.is_open()){
