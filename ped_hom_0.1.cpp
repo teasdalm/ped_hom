@@ -105,7 +105,7 @@ int main (int argc, char* argv[]) {
   /*
    * Simple main statement to show programs name and collect commands
   */
-  std::cerr << "ped_hom v0.1 (21 March 2015)  https://github.com/teasdalm/ped_hom" << std::endl;
+  std::cerr << "ped_hom v0.1 (22 April 2015)  https://github.com/teasdalm/ped_hom" << std::endl;
   std::cerr << "(C) 2015 Matthew Teasdale  GNU General Public License v3" << std::endl;
 
   if(argc < 2){
