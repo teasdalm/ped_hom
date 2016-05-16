@@ -106,7 +106,7 @@ int main (int argc, char* argv[]) {
    * Simple main statement to show programs name and collect commands
   */
   std::cerr << "ped_hom v0.1 (22 April 2015)  https://github.com/teasdalm/ped_hom" << std::endl;
-  std::cerr << "(C) 2015 Matthew Teasdale BSD 3 clause " << std::endl;
+  std::cerr << "(C) 2016 Matthew Teasdale BSD 3-Clause" << std::endl;
 
   if(argc < 2){
     std::cerr << "Error!! - Usage..... ped_hom input.ped" << std::endl;
