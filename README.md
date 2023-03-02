@@ -2,11 +2,14 @@
 * A __beta__ C++ program for making homozygous haploid ped files.
 * Requires the [boost](http://www.boost.org/) C++ libraries
 
-# Usage
+# Usage - Tested on Ubuntu 22.04 only
 ```bash
-# To compile on Ubuntu 22.04
+# Install boost libraries
+sudo apt install libboost-all-dev
+
+# Compile
 g++ ped_hom_0.1.cpp -o ped_hom
 
-# usage
+# Run
 ped_hom file.ped > file_h.ped
 ```
